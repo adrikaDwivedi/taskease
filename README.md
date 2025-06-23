@@ -20,4 +20,9 @@ TaskEase is a beautifully designed task management mobile app built with React N
 <br>
 
 Screenshots
-| ![Home](./assets/screenshots/home.png) | ![home-code](./assets/screenshots/home-code.png) | ![Signup](./assets/screenshots/signup.png) | ![Login](./assets/screenshots/login.png) | ![Priority](./assets/screenshots/priority.png) | ![Task](./assets/screenshots/task.png)
+<p align="center">
+  <img src="./assets/screenshots/home.png" width="200"/>
+  <img src="./assets/screenshots/signup.png" width="200"/>
+  <img src="./assets/screenshots/priority.png" width="200"/>
+  <img src="./assets/screenshots/task.png" width="200"/>
+</p>
