@@ -28,5 +28,5 @@ Screenshots
   <img src="./assets/screenshots/signup.png" width="200"/>
   <img src="./assets/screenshots/priority.png" width="200"/>
   <img src="./assets/screenshots/task.png" width="200"/>
-  <img src="./assets/screenshots/task-view.png" width="200"/>
+  <img src="./assets/screenshots/Screenshot 2025-06-23 145255" width="200"/>
 </p>
