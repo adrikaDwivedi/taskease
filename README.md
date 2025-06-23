@@ -1,4 +1,4 @@
-✅ TaskEase — Your Daily Task Manager App
+✅ Your Daily Task Manager App
 TaskEase is a beautifully designed task management mobile app built with React Native (Expo). Whether you're scheduling tasks or just planning your day, TaskEase helps you organize, prioritize, and manage your todos effortlessly.
 
 <br>
@@ -13,7 +13,7 @@ TaskEase is a beautifully designed task management mobile app built with React N
 
 ❌ Delete Tasks: Remove unwanted tasks with a single tap.
 
-🔐 Authentication: Signup and login using email or social providers (Google, Facebook, Apple).
+🔐 Authentication: Signup and login using email or social providers (Google, Facebook, Apple). Integrated with firebase. 
 
 🎨 Modern UI: Polished UI with modal sheets, shadowed cards, and intuitive buttons.
 
@@ -25,7 +25,6 @@ Screenshots
     <img src="./assets/screenshots/homepage.png" height="200" width="300"/>
     <br>
   <img src="./assets/screenshots/home.png" width="200"/>
-<!--   <img src="./assets/screenshots/signup.png" width="200"/>
-  <img src="./assets/screenshots/priority.png" width="200"/> -->
+  <img src="./assets/screenshots/priority.png" width="200"/> 
   <img src="./assets/screenshots/task.png" width="200"/>
 </p>
