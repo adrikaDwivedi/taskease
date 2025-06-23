@@ -23,6 +23,7 @@ Screenshots
 <p align="center">
     <img src="./assets/screenshots/home-code.png" height= "200" width="300"/>
     <img src="./assets/screenshots/homepage.png" height="200" width="300"/>
+    <br>
   <img src="./assets/screenshots/home.png" width="200"/>
   <img src="./assets/screenshots/signup.png" width="200"/>
   <img src="./assets/screenshots/priority.png" width="200"/>
