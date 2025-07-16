@@ -16,7 +16,7 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
 
-export { db, auth }; // ✅ cleaner
+export { db, auth }; // 
 
 
 
@@ -37,11 +37,3 @@ export { db, auth }; // ✅ cleaner
 
 // // Initialize Firebase
 // const app = initializeApp(firebaseConfig);
-
-
-
-
-
-// // 795619802442-36abts06o2qbe6nsibhn7o09rgiit86q.apps.googleusercontent.com
-// 1803630193646050 facebook cliend id
-// a86300bab6cdf8a83fb3fc1be74a0e63 facebook secret password
