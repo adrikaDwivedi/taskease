@@ -7,21 +7,20 @@ import LoginPage from './Screens/LoginPage';
 import Signup from './Screens/Signup';
 import HomePage from './Screens/HomePage';
 
+  const Stack = createNativeStackNavigator();
 
 export default function App() {
 
-  const Stack = createNativeStackNavigator();
 
   return (
-  //  <NavigationContainer>
-  //   <Stack.Navigator initialRouteName="Home">
-  //       <Stack.Screen name="Home" component={HomeUI} />
-  //       <Stack.Screen name="Signup" component={Signup} />
-  //       <Stack.Screen name="LoginPage" component={LoginPage} />
-
-  //     </Stack.Navigator>
-  //  </NavigationContainer>
-  <HomePage/>
+   <NavigationContainer>
+    <Stack.Navigator initialRouteName="HomePage">
+        {/* <Stack.Screen name="Home" component={HomeUI} options={{ headerShown: false }}/>
+        <Stack.Screen name="Signup" component={Signup}  />
+        <Stack.Screen name="LoginPage" component={LoginPage} /> */}
+        <Stack.Screen name="HomePage" component={HomePage}   options={{ headerShown: false }}  />
+      </Stack.Navigator>
+   </NavigationContainer>
   );
 }
 

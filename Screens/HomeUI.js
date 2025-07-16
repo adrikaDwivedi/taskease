@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
-import {FontAwesome} from '@expo/vector-icons'; // Importing Ionicons for iconsimport React from 'react';
+import {FontAwesome} from '@expo/vector-icons'; 
 import { useNavigation } from '@react-navigation/native';
 
 
@@ -82,7 +82,6 @@ const styles = StyleSheet.create({
   borderBottomLeftRadius: 0,
   borderBottomRightRadius: 0,
     marginLeft: 170,
-    overflow: 'hidden', // ensures the shape is clipped
     justifyContent: 'center',
 
   },

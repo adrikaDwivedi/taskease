@@ -15,7 +15,7 @@ const LoginPage = () => {
 
 const [request, response, promptAsync] = Google.useAuthRequest({
   expoClientId: '1024095845227-605iij06q5a3lvrg5kkkgvca9qihr9r4.apps.googleusercontent.com',
-    androidClientId: 'YOUR_ANDROID_CLIENT_ID_HERE',
+    androidClientId: '1024095845227-605iij06q5a3lvrg5kkkgvca9qihr9r4.apps.googleusercontent.com',
 
 });
     useEffect(() => {
@@ -23,20 +23,27 @@ const [request, response, promptAsync] = Google.useAuthRequest({
     const { id_token } = response.authentication;
     const credential = GoogleAuthProvider.credential(id_token);
     signInWithCredential(auth, credential)
-      .then(() => Alert.alert("Google Login Successful"))
+      .then(() => {
+        Alert.alert("Google Login Successful");
+        navigation.replace('HomePage');  
+      })
       .catch(err => Alert.alert("Google Login Failed", err.message));
   }
 }, [response]);
+
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    signInWithEmailAndPassword(auth, email, password)
-      .then(user => Alert.alert('Logged in!'))
-      .catch(err => Alert.alert('Login Error', err.message));
+  signInWithEmailAndPassword(auth, email, password)
+    .then(() => {
+      Alert.alert('Logged in!');
+      navigation.replace('HomePage'); 
+    })
+    .catch(err => Alert.alert('Login Error', err.message));
+};
 
-  };
   return (
      <View style={styles.container}>
           
