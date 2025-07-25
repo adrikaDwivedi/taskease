@@ -1,23 +1,62 @@
-✅ Your Daily Task Manager App
-TaskEase is a beautifully designed task management mobile app built with React Native (Expo). Whether you're scheduling tasks or just planning your day, TaskEase helps you organize, prioritize, and manage your todos effortlessly.
+# Taskease 📋  
+**By Adrika Dwivedi**
 
-<br>
-✨ Features
-📆 Daily Overview: Displays the current date and task list in a clean layout.
+## 📱 Project Overview
 
-📝 Add New Tasks: Easily add a task with a title, description, and select priority.
+"My Tasks" is a simple React Native to-do list app built using **Expo**. It allows users to add, complete, and delete tasks, while also scheduling **local notifications** as reminders for each task. The project demonstrates core mobile development skills such as state management, list rendering, basic UI interactions, and Expo Notifications.
 
-🚦 Priority Filters: View tasks by All, Low, Medium, or High priority.
+---
 
-🧾 View & Edit Tasks: Tap any task to view its details or edit its content.
+## ⚙️ Technologies Used
 
-❌ Delete Tasks: Remove unwanted tasks with a single tap.
+- **React Native**
+- **Expo Go**
+- **JavaScript (ES6+)**
+- **Expo Notifications**
+- **React Hooks (useState, useEffect)**
 
-🔐 Authentication: Signup and login using email or social providers (Google, Facebook, Apple). Integrated with firebase. 
+---
 
-🎨 Modern UI: Polished UI with modal sheets, shadowed cards, and intuitive buttons.
+## 🚀 Features
 
-<br>
+### ✅ Core Functionality
+- **Task Input**: Add new tasks via a text input and button.
+- **Task List**: Scrollable list of tasks with visual distinction between completed and incomplete tasks.
+- **Task Completion**: Toggle task status with strikethrough styling for completed tasks.
+- **Task Deletion**: Remove tasks easily using a delete button.
+  
+### 🔔 Local Notifications
+- For each new task, a local notification is scheduled to trigger **1 minute** after creation.
+- Notifications display:  
+  `"title: "📣 Reminder! Complete your pending tasks""`
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+- Node.js & npm installed
+- Expo CLI installed (`npm install -g expo-cli`)
+- Expo Go app installed on your Android/iOS device
+
+### Setup Instructions
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/adrikaDwivedi/taskease.git
+   cd taskease
+   
+Install Dependencies:
+
+
+bash <br>
+npm install
+
+Start the App: <br>
+bash <br>
+npx expo start <br>
+
+Run on Device:
+Scan the QR code from the terminal or browser using the Expo Go app on your phone.
 
 Screenshots
 <p align="center">
