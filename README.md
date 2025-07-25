@@ -31,6 +31,15 @@
   `"title: "📣 Reminder! Complete your pending tasks""`
 ---
 
+## Known limitationa
+Due to recent changes, local notifications using expo-notifications are not supported on Android emulators as the feature has been deprecated or restricted.
+Please test the notification functionality on a physical device only using the Expo Go app.
+
+This applies especially to features like:
+Scheduling task reminder notifications
+Cancelling notifications on task completion
+<br>
+---
 ## 📦 Getting Started
 
 ### Prerequisites
@@ -65,11 +74,13 @@ Screenshots
     <img src="./assets/Screenshots/firebase.png" height="200" width="300"/>
     <br>
   <img src="./assets/Screenshots/home.png" width="200"/>
-  <img src="./assets/Screenshots/priority.png" width="200"/> 
+  <img src="./assets/Screenshots/p2.png" width="200"/> 
   <img src="./assets/Screenshots/task.png" width="200"/>
 
-      <br>
-  <img src="./assets/Screenshots/home.png" width="200"/>
-  <img src="./assets/Screenshots/priority.png" width="200"/> 
-  <img src="./assets/Screenshots/task.png" width="200"/>
+  <br>
+  <img src="./assets/Screenshots/checkbox.png" width="200"/>
+  <img src="./assets/Screenshots/view.png" width="200"/> 
+  <img src="./assets/Screenshots/strikeoff.png" width="200"/>
+
+  
 </p>
