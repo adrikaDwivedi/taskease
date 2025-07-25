@@ -60,9 +60,9 @@ Scan the QR code from the terminal or browser using the Expo Go app on your phon
 
 Screenshots
 <p align="center">
-    <img src="./assets/screenshots/home-code.png" height= "200" width="300"/>
-    <img src="./assets/screenshots/homepage.png" height="200" width="300"/>
-    <img src="./assets/screenshots/firebase.png" height="200" width="300"/>
+    <img src="./assets/Screenshots/home-code.png" height= "200" width="300"/>
+    <img src="./assets/Screenshots/homepage.png" height="200" width="300"/>
+    <img src="./assets/Screenshots/firebase.png" height="200" width="300"/>
     <br>
   <img src="./assets/screenshots/home.png" width="200"/>
   <img src="./assets/screenshots/priority.png" width="200"/> 
