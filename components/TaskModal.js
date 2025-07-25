@@ -7,33 +7,33 @@ const TaskModal = ({
   description,
   priority,
   setTitle,
-  setDescription,
-  setPriority,
-  handleEditTask,
-  handleAddTask,
-  setEditModalVisible,
-  setModalVisible,
-  getPriorityColor
-}) => (
-  <View style={styles.modalContainer}>
-    <Text style={styles.modalTitle}>{isEdit ? 'Edit Task' : 'Add New Task'}</Text>
-    <TextInput
-      style={styles.modalInput}
-      placeholder="Task title..."
-      value={title}
-      onChangeText={setTitle}
-    />
-    <TextInput
-      style={[styles.modalInput, { height: 80 }]}
-      placeholder="Task description..."
-      value={description}
-      onChangeText={setDescription}
-      multiline
-    />
-    <View style={styles.priorityContainer}>
-      <Text style={styles.priorityLabel}>Priority:</Text>
-      <View style={styles.priorityButtons}>
-        {['Low', 'Medium', 'High'].map((p) => (
+  setDescription,                                            
+  setPriority,                                            
+  handleEditTask,                                            
+  handleAddTask,                                            
+  setEditModalVisible,                                            
+  setModalVisible,                                            
+  getPriorityColor                                            
+}) => (                                            
+  <View style={styles.modalContainer}>                                            
+    <Text style={styles.modalTitle}>{isEdit ? 'Edit Task' : 'Add New Task'}</Text>                                            
+    <TextInput                                            
+      style={styles.modalInput}                                            
+      placeholder="Task title..."                                            
+      value={title}                                            
+      onChangeText={setTitle}                                            
+    />                                            
+    <TextInput                                            
+      style={[styles.modalInput, { height: 80 }]}                                            
+      placeholder="Task description..."                                            
+      value={description}                                            
+      onChangeText={setDescription}                                            
+      multiline                                            
+    />                                            
+    <View style={styles.priorityContainer}>                                            
+      <Text style={styles.priorityLabel}>Priority:</Text>                                            
+      <View style={styles.priorityButtons}>                                            
+        {['Low', 'Medium', 'High'].map((p) => (                                            
           <TouchableOpacity
             key={p}
             style={[

@@ -60,7 +60,7 @@ const Signup = () => {
       <Text style={styles.text2}>or sign up with</Text>
 
       <View style={styles.imgView}>
-        <Image source={require('../assets/facebook.png')} style={styles.icons} />
+        <Image source={require('../assets/fb.png')} style={styles.icons} />
         <Image source={require('../assets/google.png')} style={styles.icons} />
         <Image source={require('../assets/apple.png')} style={styles.icons} />
       </View>

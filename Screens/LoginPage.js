@@ -1,5 +1,4 @@
 import { StyleSheet, Text, View, Image, TextInput, Alert, TouchableOpacity } from 'react-native'
-import React from 'react'
 import { useState } from 'react'
 import { useNavigation } from '@react-navigation/native';
 import * as Google from 'expo-auth-session/providers/google';
@@ -35,11 +34,11 @@ const [request, response, promptAsync] = Google.useAuthRequest({
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleLogin = () => {
+const handleLogin = () => {
   signInWithEmailAndPassword(auth, email, password)
     .then(() => {
       Alert.alert('Logged in!');
-      navigation.replace('HomePage'); 
+      navigation.replace('HomePage', { user: auth.currentUser });
     })
     .catch(err => Alert.alert('Login Error', err.message));
 };
@@ -83,7 +82,7 @@ const [request, response, promptAsync] = Google.useAuthRequest({
           <Text style={styles.text2}>or log in with</Text>
           </View>
 <View style={styles.imgView}>
-  <Image source={require('../assets/facebook.png')} style={styles.icons} />
+  <Image source={require('../assets/fb.png')} style={styles.icons} />
   
   <TouchableOpacity onPress={() => promptAsync()}>
     <Image source={require('../assets/google.png')} style={styles.icons} />

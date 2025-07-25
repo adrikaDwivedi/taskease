@@ -6,18 +6,23 @@ import HomeUI from './Screens/HomeUI';
 import LoginPage from './Screens/LoginPage';
 import Signup from './Screens/Signup';
 import HomePage from './Screens/HomePage';
+// import { registerForPushNotificationsAsync } from './components/Notifications'; // 👈 Import
+// import {useEffect} from 'react'
 
   const Stack = createNativeStackNavigator();
 
 export default function App() {
 
+  // useEffect(() => {
+  //   registerForPushNotificationsAsync(); // 👈 Register notification permission
+  // }, []);
 
   return (
    <NavigationContainer>
-    <Stack.Navigator initialRouteName="HomePage">
-        {/* <Stack.Screen name="Home" component={HomeUI} options={{ headerShown: false }}/>
+    <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="Home" component={HomeUI} options={{ headerShown: false }}/>
         <Stack.Screen name="Signup" component={Signup}  />
-        <Stack.Screen name="LoginPage" component={LoginPage} /> */}
+        <Stack.Screen name="LoginPage" component={LoginPage} />
         <Stack.Screen name="HomePage" component={HomePage}   options={{ headerShown: false }}  />
       </Stack.Navigator>
    </NavigationContainer>
